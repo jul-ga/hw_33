@@ -9,7 +9,7 @@ path = os.environ.get('PROJECT_PATH', '.')
 path_to_models = f'{path}/data/models'
 path_to_test = f'{path}/data/test'
 path_to_pred = f'{path}/data/predictions'
-
+project_dir = os.path.join('C:', 'Users', 'user', 'airflow_hw')
 
 def download_best_model(path_to_models):
     files = os.listdir(path_to_models)
